@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Kura illustration"><defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#effff7"/><stop offset="1" stop-color="#c5f5e8"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#66d8d0"/><stop offset="1" stop-color="#0db7bd"/></linearGradient>
+<linearGradient id="hill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8bdfc6"/><stop offset="1" stop-color="#31bc9f"/></linearGradient>
+<linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#70d977"/><stop offset="1" stop-color="#299f66"/></linearGradient>
+<linearGradient id="shop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42cdb2"/><stop offset="1" stop-color="#118d80"/></linearGradient>
+<filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#0c544a" flood-opacity=".13"/></filter>
+</defs>
+<rect width="960" height="600" fill="url(#sky)"/>
+<path d="M0 365 Q110 290 218 342 T446 349 T664 333 T960 346 V600 H0Z" fill="#a9ead8"/>
+<path d="M0 422 C140 325 214 402 322 371 S495 350 600 387 S790 321 960 361 V600H0Z" fill="url(#hill)"/>
+<path d="M0 460 Q280 442 510 463 T960 452 V600 H0Z" fill="url(#water)"/>
+<path d="M0 497 C225 478 380 500 535 490 S815 484 960 499" fill="none" stroke="#a5f5de" stroke-width="7" opacity=".6"/>
+<path d="M0 530 C198 513 346 535 525 518 S785 510 960 526" fill="none" stroke="#bff9e7" stroke-width="4" opacity=".35"/>
+<g opacity=".94"><path d="M678 440 h26v-39l-13-10-13 10z" fill="#ffedb5"/><path d="M709 441 h39v-52l-20-14-19 14z" fill="#fff0b9"/><path d="M753 441 h30v-37l-15-11-15 11z" fill="#fff3bc"/><path d="M791 441h36v-48l-18-14-18 14z" fill="#f9e7a7"/><path d="M681 412h8v10h-8zm16 0h6v10h-6zm25-6h10v14h-10zm47 3h7v12h-7zm37-2h8v12h-8z" fill="#61c8b1"/></g>
+<path d="M0 374 Q70 356 110 395 Q42 382 0 409Z" fill="#33bc67"/>
+<path d="M0 362 Q64 319 127 338 Q53 353 0 389Z" fill="#6ad24b"/>
+
+<!-- decorative leaves -->
+<path d="M0 220C67 166 123 173 169 219C106 203 43 217 0 263Z" fill="#5bcb52"/>
+<path d="M0 250C86 216 147 262 163 309C87 277 42 289 0 305Z" fill="#32bb6d"/>
+<!-- shore behind shop -->
+<path d="M310 474 Q575 445 960 453 V600H310Z" fill="#e9f7b8"/>
+<!-- storefront -->
+<g filter="url(#shadow)">
+<path d="M445 253L738 224 849 294 849 482 445 482Z" fill="url(#shop)" stroke="#076f6c" stroke-width="6"/>
+<path d="M733 222L864 297 856 318 736 247Z" fill="#006f71"/>
+<path d="M479 344H680V464H479Z" fill="#086b73"/>
+<path d="M499 365H651V432H499Z" fill="#52b99f" opacity=".6"/>
+<path d="M515 375h28v32h-28zm39 0h28v32h-28zm38 0h28v32h-28z" fill="#a4da73"/>
+<path d="M481 434H690V468H481Z" fill="#006e70"/>
+<path d="M700 379H835V482H700Z" fill="#70d9bb"/>
+<path d="M700 379H835V401H700Z" fill="#e1ffe1"/>
+<path d="M427 266L738 227 840 297 827 317 427 300Z" fill="#1ac9a1"/>
+<path d="M427 291L738 248 824 316 429 352Z" fill="#fff7dc"/>
+<path d="M427 291l53-7-10 61-41 7Z M531 277l51-7-2 66-54 7Z M635 263l52-7 4 69-57 7Z M738 248l44 31 18 45-53-3-13-55Z" fill="#73dc4c"/>
+<path d="M429 351Q450 379 471 347Q500 373 526 343Q552 370 579 336Q607 366 632 333Q663 362 693 328Q722 355 749 322Q780 343 803 321Q821 335 824 315" fill="none" stroke="#43ba50" stroke-width="5"/>
+</g>
+<!-- QR placard, deliberately stylized / not scannable -->
+<g transform="translate(288 378) skewX(-6)" filter="url(#shadow)"><rect x="0" y="0" width="120" height="159" rx="12" fill="#073f4e"/><rect x="12" y="12" width="96" height="130" rx="5" fill="#f0fff5"/><g fill="#0e5156"><path d="M22 22h28v28H22zm8 8v12h12V30zm42-8h28v28H72zm8 8v12h12V30zM22 70h28v28H22zm8 8v12h12V78z" fill-rule="evenodd"/><path d="M59 61h9v9h-9zm15 0h9v9h-9zm23 0h8v8h-8zM60 78h19v8H60zm24 10h9v9h-9zm-25 12h12v11H59zm18 6h9v9h-9zm18 0h10v10H95zM22 111h12v12H22zm18 0h11v11H40zm17 14h13v10H57zm19-4h8v12h-8zm11 5h16v9H87z"/></g></g>
+<!-- plants -->
+<path d="M859 481Q842 360 909 326Q875 407 886 485Z" fill="#40b545"/>
+<path d="M852 485Q804 395 752 389Q798 458 832 486Z" fill="#65cc37"/>
+<path d="M885 485Q923 396 960 397V445Q920 463 901 493Z" fill="#2ba76e"/>
+<path d="M860 483V380" stroke="#146f57" stroke-width="10"/>
+<path d="M861 386Q814 345 793 336Q835 323 869 362Z" fill="#5bd149"/>
+<path d="M861 386Q897 310 937 310Q922 359 864 392Z" fill="#71d951"/>
+<path d="M862 383Q886 333 876 303Q857 340 862 383Z" fill="#2abb80"/>
+<!-- payment ping -->
+<path d="M260 368l-18-18M271 354l-4-30M286 365l19-23" stroke="#4acb32" stroke-width="9" stroke-linecap="round"/>
+</svg>

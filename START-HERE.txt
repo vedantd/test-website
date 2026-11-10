@@ -1,0 +1,15 @@
+KURA — COMPLETE MULTI-PAGE WEBSITE PROTOTYPE
+
+This ZIP contains the entire static website: 7 HTML pages, stylesheets, JavaScript, photos, logos, and documentation.
+
+QUICK START
+1. Unzip Kura-Complete-Website.zip
+2. Open kura-website/index.html in your browser.
+3. Navigate between Merchants, Business Payments, Organizations, For Families, About, and Contact.
+
+LOCAL SERVER (optional, best for testing)
+From inside the kura-website folder, run:
+    python3 -m http.server 8080
+Then open http://localhost:8080
+
+This is a prototype; production API integration and final approved design assets are still required.

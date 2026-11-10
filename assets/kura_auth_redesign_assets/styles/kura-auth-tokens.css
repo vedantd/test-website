@@ -1,0 +1,20 @@
+/* Suggested visual values ONLY — prefer the official Kura brand book and project tokens. */
+:root {
+ --kura-auth-navy: #0B3042;
+ --kura-auth-navy-deep: #092D41;
+ --kura-auth-green: #77D94E;
+ --kura-auth-green-dark: #237D32;
+ --kura-auth-mint: #DFF7E9;
+ --kura-auth-mint-pale: #F4FCF7;
+ --kura-auth-surface: #FFFFFF;
+ --kura-auth-muted: #61727E;
+ --kura-auth-border: #DFE9E5;
+ --kura-auth-radius: 16px;
+ --kura-auth-focus: 0 0 0 3px rgb(119 217 78 / 35%);
+}
+.kura-auth-layout {min-height:100svh;display:grid;grid-template-columns:minmax(0,45fr) minmax(0,55fr);background:var(--kura-auth-surface);}
+.kura-auth-panel {display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(24px,5vw,80px);}
+.kura-auth-form {width:min(100%,440px);}
+.kura-auth-art {position:relative;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;background:linear-gradient(125deg,#F0FFF7,#D9F8EA);padding:clamp(32px,5vw,80px);}
+.kura-auth-art img {width:100%;max-height:58vh;object-fit:contain;object-position:center bottom;align-self:end;}
+@media(max-width:767px){.kura-auth-layout{display:block}.kura-auth-panel{min-height:100svh;padding:32px 24px}.kura-auth-art{display:none}}

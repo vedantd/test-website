@@ -1,0 +1,3 @@
+Kura static site — AWS deploy notes
+Bucket: kura-website-905418111939 (us-east-1)
+Preview: http://kura-website-905418111939.s3-website-us-east-1.amazonaws.com/
