@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/polish.css">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kura | Payments for Caribbean merchants">
 <meta property="og:description" content="Accept digital payments at checkout, see every transaction, and manage funds in a wallet you control—built for Caribbean merchants.">
@@ -27,7 +27,7 @@
       <a href="about.html">About us</a>
     </nav>
     <div class="nav-cta">
-      <a class="login-link" href="https://app.kuratek.com/" target="_blank" rel="noopener">Open Kura</a>
+      <a class="login-link" href="https://app.kuratek.com/" target="_blank" rel="noopener">Open app</a>
       <a class="btn btn-lime btn-sm" href="https://app.kuratek.com/merchant" target="_blank" rel="noopener">Become a merchant <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation"><svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h20M3 13h20M3 19h20"/></svg></button>
@@ -39,7 +39,7 @@
     <a href="families.html">For families</a>
     <a href="about.html">About us</a>
     <a href="https://app.kuratek.com/merchant" target="_blank" rel="noopener">Become a merchant</a>
-    <a href="https://app.kuratek.com/" target="_blank" rel="noopener">Open Kura ↗</a>
+    <a href="https://app.kuratek.com/" target="_blank" rel="noopener">Open app ↗</a>
   </nav>
 </header>
 
@@ -50,11 +50,12 @@
       <div class="hero-copy">
         <div class="hero-overline"><span class="small-sun"></span> Merchant payments for the Caribbean</div>
         <h1>Get paid digitally.<br><em>Grow locally.</em></h1>
-        <p>Accept digital dollars at the point of sale—including purchases backed by family abroad. See every transaction, and manage funds in a wallet you control.</p>
+        <p>Accept digital-dollar payments at your counter, track every transaction, and manage funds in a wallet you control.</p>
         <div class="hero-buttons">
           <a class="btn btn-lime" href="https://app.kuratek.com/merchant" target="_blank" rel="noopener">Become a merchant <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
           <a class="btn btn-white-outline" href="#how-it-works">See how it works <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
         </div>
+        <div class="hero-assurance"><span>QR &amp; code payments</span><span>Clear transaction activity</span><span>Wallet you control</span></div>
       </div>
       <div class="hero-product" aria-label="Illustrative Kura merchant payment interface">
         <div class="hero-device">
@@ -95,36 +96,36 @@
         </div>
         <p>Simple at the counter. Secure underneath. One flow merchants actually use.</p>
       </div>
-      <ol class="demo-flow reveal" id="demo-flow">
-        <li class="demo-step is-active" data-step="1">
+      <ol class="demo-flow reveal" id="demo-flow" role="tablist" aria-label="Merchant payment journey">
+        <li class="demo-step is-active" data-step="1" id="demo-tab-1" role="tab" aria-controls="demo-panel-1" aria-selected="true" tabindex="0">
           <span class="demo-num">01</span>
           <h3>Get set up</h3>
           <p>Complete merchant onboarding and open your Kura merchant experience.</p>
         </li>
-        <li class="demo-step" data-step="2">
+        <li class="demo-step" data-step="2" id="demo-tab-2" role="tab" aria-controls="demo-panel-2" aria-selected="false" tabindex="-1">
           <span class="demo-num">02</span>
           <h3>Accept payment</h3>
           <p>They pay with a Kura QR or code—digital dollars at your counter, including spend backed from abroad. No dedicated card terminal for supported flows.</p>
         </li>
-        <li class="demo-step" data-step="3">
+        <li class="demo-step" data-step="3" id="demo-tab-3" role="tab" aria-controls="demo-panel-3" aria-selected="false" tabindex="-1">
           <span class="demo-num">03</span>
           <h3>Manage funds</h3>
           <p>See the transaction, hold balance in a wallet you control, and use eligible cash-out options.</p>
         </li>
       </ol>
       <div class="demo-stage reveal" aria-live="polite">
-        <div class="demo-panel" data-panel="1">
+        <div class="demo-panel" data-panel="1" id="demo-panel-1" role="tabpanel" aria-labelledby="demo-tab-1">
           <span class="demo-kicker">Onboarding</span>
           <strong>Your business, ready to accept.</strong>
           <p>We confirm eligibility for your market, then you access the merchant experience on your phone.</p>
         </div>
-        <div class="demo-panel" data-panel="2" hidden>
+        <div class="demo-panel" data-panel="2" id="demo-panel-2" role="tabpanel" aria-labelledby="demo-tab-2" hidden>
           <span class="demo-kicker">At the counter</span>
           <strong>Digital dollars. Confirmed at checkout.</strong>
           <p>Walk-ins and purchases backed by family abroad—illustrative amount for product clarity, not a live receipt.</p>
           <div class="demo-mini-receipt"><b>$84.50</b><span>Payment confirmed ✓</span></div>
         </div>
-        <div class="demo-panel" data-panel="3" hidden>
+        <div class="demo-panel" data-panel="3" id="demo-panel-3" role="tabpanel" aria-labelledby="demo-tab-3" hidden>
           <span class="demo-kicker">In your wallet</span>
           <strong>Visibility and control.</strong>
           <p>Your wallet, your access. Settlement and withdrawal options depend on market and partners.</p>
