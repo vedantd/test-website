@@ -55,6 +55,6 @@ Merchants → Business payments → Organizations → For families → About us.
 This is a brand-faithful design prototype and developer handoff, not a launch-ready production application.
 
 
-## Homepage light-hero refinements (Nov 2026)
+## Full-site visual refinement (Nov 2026)
 
-`index.html` now uses a clean **white hero** directly below the existing navy Kura navigation, with deep-ink headlines, green/teal emphasis, and a localised merchant-product visual on the right. `homepage-mint-alternative.html` is an optional mint-wash comparison; it does not replace the production homepage. All six other pages are unchanged.
+All public pages now load `assets/polish.css` after the legacy stylesheet. The homepage uses a purely CSS ambient mint glow (no faded merchant photography) around the merchant payment UI. Supporting pages share white/mint hero styling and more consistent spacing. The payment journey uses keyboard-operable, user-controlled tabs instead of automatic advancement. See `docs/VISUAL-REFINEMENT.md` for design decisions and release checks.
